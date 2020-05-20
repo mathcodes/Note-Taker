@@ -12,7 +12,7 @@ $(document).ready(function() {
     // A function for getting all notes from the db
     var getNotes = function() {
         return $.ajax({
-            url: "./api/notes.html",
+            url: "/api/notes/",
             method: "GET"
         });
     };
@@ -20,7 +20,7 @@ $(document).ready(function() {
     // A function for saving a note to the db
     var saveNote = function(note) {
         return $.ajax({
-            url: "./api/notes.html",
+            url: "/api/notes/",
             data: note,
             method: "POST"
         });
@@ -29,7 +29,7 @@ $(document).ready(function() {
     // A function for deleting a note from the db
     var deleteNote = function(id) {
         return $.ajax({
-            url: "api/notes/" + id,
+            url: "/api/notes/" + id,
             method: "DELETE"
         });
     };
@@ -142,7 +142,7 @@ $(document).ready(function() {
     $noteTitle.on("keyup", handleRenderSaveBtn);
     $noteText.on("keyup", handleRenderSaveBtn);
 
-    // Gets and renders the initial list of notes
+    // Gets + renders the initial list of notes
     getAndRenderNotes();
 
 })
