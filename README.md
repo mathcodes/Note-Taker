@@ -32,7 +32,3 @@ I look forward to hearing from you! Please do not hesitate contact me with any q
 ![Image of Me](https://avatars0.githubusercontent.com/u/17928947?v=4)
 
 __Jon Christie__ 
-
-
-
-
