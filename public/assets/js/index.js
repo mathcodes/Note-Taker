@@ -33,13 +33,14 @@ $(document).ready(function() {
             method: "DELETE"
         });
     };
-
+    //$ = jQuery = FRONT END
+    //anything manipulating the DOM, clickEvents, manipulating browser = Front End
     // If there is an activeNote, display it, otherwise render empty inputs
     var renderActiveNote = function() {
         $saveNoteBtn.hide();
 
         if (activeNote.id) {
-            $noteTitle.attr("readonly", true);
+            $noteTitle.attr("readonly", true); //efecting an attribute (FRONT END)
             $noteText.attr("readonly", true);
             $noteTitle.val(activeNote.title);
             $noteText.val(activeNote.text);
@@ -96,8 +97,7 @@ $(document).ready(function() {
         renderActiveNote();
     };
 
-    // If a note's title or text are empty, hide the save button
-    // Or else show it
+    // If a title notes are empty this will hide the save button, or 'else' show it 
     var handleRenderSaveBtn = function() {
         if (!$noteTitle.val().trim() || !$noteText.val().trim()) {
             $saveNoteBtn.hide();
