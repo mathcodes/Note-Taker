@@ -1,5 +1,7 @@
 # Note-Taker
-![badge](https://img.shields.io/badge/Skill-HTML-orange) ![badge](https://img.shields.io/badge/Skill-CSS-blue) ![badge](https://img.shields.io/badge/Skill-JS-yellow) ![badge](https://img.shields.io/badge/Skill-NodeJS-green/) ![badge](https://img.shields.io/badge/Skill-Express-blue) 
+![badge](https://img.shields.io/badge/Skill-HTML-orange) ![badge](https://img.shields.io/badge/Skill-CSS-blue) ![badge](https://img.shields.io/badge/Skill-JS-yellow) ![badge](https://img.shields.io/badge/Skill-NodeJS-green/) ![badge](https://img.shields.io/badge/Skill-Express-blue) ![badge](https://img.shields.io/badge/License-MIT-Red) 
+
+![image of app](https://github.com/mathcodes/Note-Taker/blob/master/notetakeriamge.jpg?raw=true)
 
 ## Table of Contents
 * [Description](#description)
@@ -18,7 +20,7 @@ This project allows users to create, store, and delete notes as they wish. It in
 Deployed website: https://jonsnotetaker.herokuapp.com/
 
 ## Licenses  
-No licenses are associated with my portfolio at this time.
+MIT
 
 ## Installation
 No installations are needed to view this project. Just click the link above, bookmark the page and start writing your notes!
