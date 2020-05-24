@@ -19,7 +19,7 @@ This project allows users to create, store, and delete notes as they wish. It in
 
 Deployed website: https://jonsnotetaker.herokuapp.com/
 
-## Licenses  
+## License
 MIT
 
 ## Installation
